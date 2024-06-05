@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #T01{
+            font-size: 1rem;
+            background-color: gold;
+            width: 200px;
+            height: 25px;
+            text-align: center;
+            border: 1px black solid;    
+        }
+        #T2 img{
+            width: 15rem;
+            height: 15rem;
+            display: flex;
+            flex-direction: column-reverse;
+        }
+        #T003{
+            background-color: darkslategrey;
+            color: white;
+            width: 30rem;
+            height: 6rem;
+            text-align: center;
+            position: absolute;
+            margin-top: 1rem;
+            border: 3px solid black;
+            padding: 10px;
+            font-size: 3vh;
+        }
+        #T003 span{
+            color: black;
+            font-size: 4vh;
+            font-weight: 900;
+        }
+        #T3{
+            margin-top: 1rem;
+        }
+
+        
+
+    </style>
+</head>
+<body>
+    <div id="T1" class="box">
+        <p id="T01"> Hello world! </p>
+        </div>
+        <hr>
+        <div id="T2">
+            <select id="imageSelector">
+                <option value="download.jpeg">country</option>
+                <option value="images.jpeg">My country</option>
+                <option value="images (1).jpeg">My Legend</option>
+                <option value="images (2).jpeg">My Legends</option>
+                <option value="download (1).jpeg">The Best</option>
+                <option value="download (2).jpeg">Jeeb</option>
+                <option value="images (3).jpeg">the best in the business</option>
+
+            </select>
+            <img src="download.jpeg" id="T02"/>
+        </div>
+
+        <hr>
+        <div id="T3">
+            <select name="font-family" id="T001">
+                <option value="Arial, sans-serif">Arial</option>
+                <option value="Times New Roman">Times New Roman</option>
+                <option value="Verdana, Geneva, sans-serif">Verdana</option>
+            </select>
+            <select name="font-size" id="T002">
+                <option value="1vh">1vh</option>
+                <option value="2vh">2vh</option>
+                <option value="3vh">3vh</option>
+                <option value="3.5vh">3.5vh</option>
+            </select>
+            <input type="checkbox" id="italic">
+            <label for="italic">Italic</label>
+
+            <input type="checkbox" id="bold">
+            <label for="bold">Bold</label>
+
+            <input type="checkbox" id="underline">
+            <label for="underline">Underline</label>
+        </div>
+        
+        <div id="T003">
+            <p id="textToStyle">
+                عاشَت المُقاومة عاشَ التمرُّد فِيك <br>
+                لمّا تصوّرو انو نُهرُب! تصوّرنا على ال 
+                <br> <span>Jeep</span> 
+            </p>
+        </div>
+
+        
+
+        <script src="task-3.js">
+
+        </script>
+</body>
+</html>

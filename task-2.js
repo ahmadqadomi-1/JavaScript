@@ -19,12 +19,13 @@ Sample numbers : 3, -7, 2
 Output : The sign is - */
 /******* Start Your Code *********/
 function sign(a, b, c) {
-    let array01 = a * b * c;
+    let array01 = (a * b * c);
     if (array01 > 0) {
         return "+";
     } else if (array01 < 0) {
         return "-";
-    } else {
+    } 
+    else {
         return "0";
     }
 }
@@ -92,7 +93,9 @@ alert("The largest number is: " + largestNumber);
 
 /* 5.Write the if statement to display "Hello World" if x is greater than y, otherwise alert "Goodbye".*/
 /******* Start Your Code *********/
-if (x > y) {
+let a = 10;
+let b = 5;
+if (a > b) {
     console.log("Hello World");
 } else {
     alert("Goodbye");
