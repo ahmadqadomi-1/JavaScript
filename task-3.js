@@ -41,3 +41,19 @@ underlineCheckbox.addEventListener("change", function() {
 
 
 
+    const addSongButton = document.getElementById('songBtn');
+    const songInput = document.getElementById('addsong');
+    const songList = document.getElementById('songList');
+    
+    const addSong = () => {
+        const songName = songInput.value;
+        if (songName) {
+            const listItem = document.createElement('li');
+            listItem.textContent = songName;
+            songList.appendChild(listItem);
+            songInput.value = '';
+        }
+    }
+    addSongButton.addEventListener('click', addSong);
+    
+
