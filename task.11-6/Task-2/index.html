@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+        }
+        
+        form {
+            max-width: 600px;
+            margin: 50px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        
+        label {
+            font-weight: bold;
+        }
+        
+        input[type="text"],
+        input[type="date"],
+        input[type="checkbox"] {
+            width: calc(100% - 10px);
+            padding: 8px;
+            margin: 6px 0;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+        
+        input[type="checkbox"] {
+            width: auto;
+        }
+        
+        button[type="submit"] {
+            width: 100%;
+            padding: 10px;
+            background-color: #4caf50;
+            color: #fff;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        
+        button[type="submit"]:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <form action="" id="Info">
+        <label for="name">Name: </label>
+        <input type="text" id="name"><br><br>
+    
+        <label for="age">Age: </label>
+        <input type="text" id="age"><br><br>
+    
+        <label for="gender">Gender: </label>
+        <input type="text" id="gender"><br><br>
+    
+        <label for="birthdate">Birth Date: </label>
+        <input type="date" id="birthDate"><br><br>
+    
+        <label for="image">Your Image: </label>
+        <input type="text" id="image"><br><hr><br>
+    
+        <label for="description">Description: </label>
+        <input type="text" id="description"><br><br>
+    
+        <label for="major">Major & University: </label>
+        <input type="text" id="major"><br><br>
+    
+        <label for="programminglanguage1">Programming Language: </label>
+        <input type="checkbox" id="html">
+        <label for="programminglanguage1">HTML</label>
+        <input type="checkbox" id="css">
+        <label for="programminglanguage2">CSS</label>
+        <input type="checkbox" id="js">
+        <label for="programminglanguage3">JS</label>
+        <br><hr><br>
+    
+        <label for="number">Siblings Number: </label><br>
+        <input type="text" id="number"><br><br>
+    
+        <label for="descsibling">Description of Siblings: </label><br>
+        <input type="text" id="describing"><br><br>
+    
+        <button id="SubBtn" type="submit">Submit</button>
+    </form>
+
+
+    <script src="js.js"></script>
+</body>
+</html>
